@@ -1,5 +1,7 @@
 # Tea Slide Gen
 
+[Live Demo](https://slide-gen.tea.cchuml.com/)
+
 <div align="center">
   <h3>AI-Powered Presentation Generator</h3>
   <p>Create stunning presentations in seconds with artificial intelligence</p>

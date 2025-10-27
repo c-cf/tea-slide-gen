@@ -109,13 +109,13 @@ export function SlideToolbar({ currentSlide, slideIndex, onUpdate }: SlideToolba
       <div className="flex h-14 items-center justify-between border-b bg-card px-4">
         <div className="flex items-center gap-3">
           <span className="text-sm font-medium">Slide {slideIndex + 1}</span>
+        </div>
+
+        <div className="flex items-center gap-2">
           <Button variant="outline" size="sm" onClick={() => setShowTemplateSelector(true)} className="gap-2">
             <LayoutTemplate className="size-4" />
             Change Layout
           </Button>
-        </div>
-
-        <div className="flex items-center gap-2">
           <RegenerateDialog currentSlide={currentSlide} onRegenerate={onUpdate}>
             <Button variant="outline" size="sm">
               <Sparkles className="mr-2 size-4" />
